@@ -396,11 +396,11 @@ header .head-top .top-menu ul li.active .btn {
 
 }
 
-.section.about .desc {
+/*.section.about .desc {
   margin-left: 130px;
-}
+}*/
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   .section.about .desc {
     margin-left: 100px;
   }
@@ -412,7 +412,7 @@ header .head-top .top-menu ul li.active .btn {
     margin-left: 0;
   }
 
-}
+}*/
 
 .info-list {
   margin-bottom: 42px;

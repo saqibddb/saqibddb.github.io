@@ -56,18 +56,18 @@
 			<div class="head-top">
 				<a href="#" class="menu-btn"><span></span></a>
 				<div class="top-menu">
-											<ul>
-													<li>
-															<a href="resume.html" class="lnk">Resume</a>
-													</li>
-													<li>
-															<a href="portfolio.html" class="lnk">Portfolio</a>
-													</li>
-													<li>
-															<a href="contacts.html" class="btn">Get in touch</a>
-													</li>
-											</ul>
-									</div>
+						<ul>
+								<li>
+										<a href="resume.html" class="lnk">Resume</a>
+								</li>
+								<li>
+										<a href="portfolio.html" class="lnk">Portfolio</a>
+								</li>
+								<li>
+										<a href="contacts.html" class="btn">Get in touch</a>
+								</li>
+						</ul>
+				</div>
 			</div>
 		</header>
 
@@ -79,9 +79,10 @@
 				<div class="centrize full-width">
 					<div class="vertical-center">
 						<div class="started-content">
-							<div class="h-title">Get in touch</div>
+							<div class="date">2016</div>
+							<div class="h-title blog_title">Sym-Tech</div>
 							<div class="h-subtitle typing-bread">
-								<p><a href="index.html">Home</a> / <a href="contacts.html">Get in touch</a></p>
+								<p><a href="index.html">Home</a> / <a href="portfolio.html">Portfolio</a></p>
 							</div>
 							<span class="typed-bread"></span>
 						</div>
@@ -90,63 +91,35 @@
 				<a href="#" class="mouse_btn"><span class="ion ion-mouse"></span></a>
 			</div>
 
-			<!-- Contacts Info -->
-			<div class="section contacts">
+			<!-- Blog -->
+			<div class="section portfolio">
 				<div class="content">
-					<div class="title">
-						<div class="title_inner">Get in touch</div>
-					</div>
-					<div class="service-items">
-						<div class="service-item">
-							<div class="icon"><span class="ion ion-android-phone-portrait"></span></div>
-							<div class="name">Phone</div>
-							<p>
-								+(416)825-7555
-							</p>
+					<div class="single-post-text">
+						<p>
+							I was employed by Sym-Tech in January 2016 to fulfill two main tasks; to wireframe, design and develop the front-end for a brand new
+							web app - <a href="https://app.sym-tech.ca/login" class="green-link">The Sym-Tech Claims Portal</a>, and to create an overall web UI identity to be used in all projects moving forward.
+						</p>
+						<p><a href="https://app.sym-tech.ca/login"><img src="images/works/sym-tech_inner.png" alt="Sym-Tech Claims Portal Mockup" /></a></p>
+						<div class="title">
+							<div class="title_inner">Tools/Techniques Used</div>
 						</div>
-						<div class="service-item">
-							<div class="icon"><span class="ion ion-email"></span></div>
-							<div class="name">Email</div>
-							<p>
-								<a href="mailto:saqib.dadabhoy@gmail.com">saqib.dadabhoy@gmail.com</a>
-							</p>
+						<div class="cols">
+							<div class="col col-md">
+								- <a href="https://angularjs.org/" class="green-link">AngularJS 1.5</a>
+								<br>
+								- <a href="https://material.angularjs.org/latest/" class="green-link">Angular Material</a>
+								<br>
+								- <a href="http://sass-lang.com/" class="green-link">Sass</a>
+							</div>
+							<div class="col col-md">
+								- <a href="https://material.google.com/" class="green-link">Material Design</a>
+								<br>
+								- <a href="http://bradfrost.com/blog/post/atomic-web-design/" class="green-link">Atomic Design</a>
+								<br>
+								- <a href="http://invisionapp.com" class="green-link">Invision</a>
+							</div>
 						</div>
-					</div>
-					<div class="contact_form">
-						<form id="form" method="post">
-							<div class="group-val">
-								<input id="name" type="text" name="name" placeholder="Name" required>
-							</div>
-							<div class="group-val">
-								<input id="email" type="text" name="email" placeholder="Email" required>
-							</div>
-							<div class="group-val ct-gr">
-								<textarea id="message" name="message" placeholder="Message" rows="8"></textarea>
-							</div>
-							<a href="#success-msg" id="submit" class="btn fill" onclick="postContactToGoogle()">Send Message</a>
-						</form>
-						<div class="alert-success">
-							<p>
-								<a name="success-msg"></a>Thanks! I'll be in touch shortly.
-							</p>
-						</div>
-					</div>
-
-					<script>
-										        function postContactToGoogle() {
-										            var name = $('#name').val();
-										            var email = $('#email').val();
-										            var message = $('#message').val();
-																$(".alert-success").css("display", "block");
-
-		$.ajax({ url: "https://docs.google.com/forms/d/1KXk985DQEWDmOhTTtBNOQsS0xhEfktGbYF4rMQPKxNc/formResponse", data: { "entry_1951883865": name, "entry_754297606": email, "entry_1943568259": message }, type: "POST", dataType: "xml", });
-		$('#name').val(" ");
-		$('#email').val(" ");
-		$('#message').val(" ");
-
-		}
-</script>
-
+					<div class="clear"></div>
 				</div>
 			</div>
 
@@ -154,15 +127,16 @@
 
 		<!-- Footer -->
 		<footer>
-			<div class="soc">
-									<a target="_blank" href="https://twitter.com/saqibddb">
-											<span class="ion ion-social-twitter"></span>
-									</a>
-									<a target="_blank" href="https://ca.linkedin.com/in/saqibddb">
-											<span class="ion ion-social-linkedin"></span>
-									</a>
-							</div>
-							<div class="clr"></div>
+				<div class="soc">
+						<a target="_blank" href="https://twitter.com/saqibddb">
+								<span class="ion ion-social-twitter"></span>
+						</a>
+						<a target="_blank" href="https://ca.linkedin.com/in/saqibddb">
+								<span class="ion ion-social-linkedin"></span>
+						</a>
+				</div>
+				<!-- <div class="copy">© 2016 saqib. All rights reserved.</div> -->
+				<div class="clr"></div>
 		</footer>
 
 		<!-- Lines -->

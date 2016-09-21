@@ -586,6 +586,14 @@ blockquote {
   font-family: 'Roboto Mono';
 }
 
+.green-link {
+  color: #43b67a;
+}
+
+.green-link:hover {
+  text-decoration: underline;
+}
+
 /* Animations */
 /* Glitch Animations */
 @media (min-width: 580px) {
